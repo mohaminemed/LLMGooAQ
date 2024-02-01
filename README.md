@@ -4,7 +4,7 @@
 
 **Typical Usage Scenarios**
 LLMGooAQ can be used to perform both human and automated evaluations by applying various methods such as pairwise comparison, single answer rating, or reference-guided rating to assess the credibility of LLMs. 
-
+[data](https://www.google.com "Google's Homepage")
 
 **LLMGooAq Data**
 To obtain the data, consult the data/ directory. Note that the data is stored via git-lfs. If you clone the project, make sure you also run git lfs pull.
