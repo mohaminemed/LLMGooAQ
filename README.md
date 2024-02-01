@@ -11,7 +11,7 @@ LLMGooAQ can be used to perform both human and automated evaluations by applying
 
 **LLMGooAq Data**
 
-To obtain the data, consult the [data/]("https://github.com/mohaminemed/LLMGooAQ/tree/main/data") directory. 
+To obtain the data, consult the [data]("https://github.com/mohaminemed/LLMGooAQ/tree/main/data") directory. 
 
 Each line of the data file should look like this: 
 
