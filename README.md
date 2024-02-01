@@ -7,7 +7,7 @@ LLMGooAQ can be used to perform both human and automated evaluations by applying
 
 
 **LLMGooAq Data**
-To obtain the data, consult the data/ directory. Note that the data is stored via git-lfs. If you clone the project (git clone git@github.com:allenai/gooaq.git), make sure you also run git lfs pull.
+To obtain the data, consult the data/ directory. Note that the data is stored via git-lfs. If you clone the project, make sure you also run git lfs pull.
 
 Each line of the data file should look like this:
 
