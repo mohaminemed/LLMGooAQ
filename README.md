@@ -27,8 +27,9 @@ Each line of the data file should look like this:
 }
 
 ```
-- comment utiliser la dataset
-- exemple de plusieurs questions
-- Quelques statistiques
-- Comment lire la base de données
-- 
+
+**How to Use**
+
+**Statistics**
+
+**Authors**
