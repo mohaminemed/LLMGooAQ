@@ -32,7 +32,7 @@ Each line of the data file should look like this:
 ```
 
 Where "id" and "question" are the index and text of the question in the GooAQ dataset. "context" refers to the general context or domain of the question, and lines with different LLM names show the answers we obtained using inference with each LLM.
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+-  `#f03c15`
 
 **How to Use**
 
