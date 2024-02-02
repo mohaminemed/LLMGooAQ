@@ -36,7 +36,8 @@ Where `id` and `question` are the index and text of the question in the GooAQ da
 
 ## How to use
 To read the dataset, you can use the pandas library.
-```
+
+```py
 import pandas as pd
 
 dataset = pd.read_json(
