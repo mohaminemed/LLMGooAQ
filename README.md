@@ -31,6 +31,8 @@ Each line of the data file should look like this:
 
 ```
 
+"id" is the question index on GooAQ dataset
+
 **How to Use**
 
 **Statistics**
