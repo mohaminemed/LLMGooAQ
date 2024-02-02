@@ -34,7 +34,18 @@ Each line of the data file should look like this:
 Where `id` and `question` are the index and text of the question in the GooAQ dataset. `context` refers to the general context or domain of the question, and lines with different LLM names such as `alpaca-13b` show the answers we obtained using inference with the LLM.
 
 
-**How to Use**
+## How to use
+To read the dataset, you can use the pandas library.
+```
+import pandas as pd
+
+dataset = pd.read_json(
+    path_or_buf="data/LLMGooAQ.jsonl",
+    lines=True
+)
+
+print(dataset.head())
+```
 
 **Statistics**
 
