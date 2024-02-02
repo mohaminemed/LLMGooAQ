@@ -3,12 +3,12 @@
 This is a comprehensive database encompassing diverse questions and answers across 20 domains and contexts. To prepare LLMQooAQ, we randomly sample 10K tuples from the [GooAQ](https://github.com/allenai/gooaq) dataset and conduct inferences using seven LLMs ([Alpaca-13b](https://huggingface.co/chavinlo/alpaca-13b), [Llama-2-13b](https://huggingface.co/meta-llama/Llama-2-13b), [Chatglm-6b](https://huggingface.co/THUDM/chatglm-6b), [Fastchat-t5-3b](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0), [Koala-13b](https://huggingface.co/TheBloke/koala-13B-HF), [Vicuna-7b](https://huggingface.co/lmsys/vicuna-7b-v1.5), [Vicuna-13b](https://huggingface.co/lmsys/vicuna-13b-v1.3)) to answer these questions.
 
 
-**Typical Usage Scenarios**
+## Typical Usage Scenarios
 
 LLMGooAQ can be used to perform both human and automated evaluations by applying various methods such as pairwise comparison, single answer rating, or reference-guided rating to assess the credibility of LLMs. 
 
 
-**LLMGooAq Data**
+## LLMGooAq Data
 
 To get the data, consult the [data]("https://github.com/mohaminemed/LLMGooAQ/tree/main/data") directory. 
 
@@ -48,13 +48,13 @@ dataset = pd.read_json(
 print(dataset.head())
 ```
 
-**Statistics**
+## Statistics
 
 The figure below shows the distribution of questions across all contexts.
 
 ![Image](https://github.com/mohaminemed/LLMGooAQ/blob/main/imgs/context_distribution.png)
 
-**Licence**
+## Licence
 
 LLMGooAQ should not be used for any commercial purposes. See the [License](https://github.com/mohaminemed/LLMGooAQ/blob/main/LICENSE) for the detailed terms.
 
