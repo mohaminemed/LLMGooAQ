@@ -31,7 +31,8 @@ Each line of the data file should look like this:
 
 ```
 
-"id" is the question index on GooAQ dataset
+Where "id" and "question" are the index and text of the question in the GooAQ dataset. "context" refers to the general context or domain of the question, and lines with different LLM names show the answers we obtained using inference with each LLM.
+
 
 **How to Use**
 
