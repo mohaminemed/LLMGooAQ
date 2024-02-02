@@ -49,6 +49,8 @@ print(dataset.head())
 
 **Statistics**
 
+![Image](https://github.com/mohaminemed/LLMGooAQ/blob/main/imgs/context_distribution.png)
+
 **Licence**
 
 LLMGooAQ should not be used for any commercial purposes. See the [License](https://github.com/mohaminemed/LLMGooAQ/blob/main/LICENSE) for the detailed terms.
