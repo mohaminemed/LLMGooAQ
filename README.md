@@ -58,8 +58,7 @@ The figure below shows the distribution of questions across all contexts.
 
 LLMGooAQ should not be used for any commercial purposes. See the [License](https://github.com/mohaminemed/LLMGooAQ/blob/main/LICENSE) for the detailed terms.
 
-**Note**
+### Note
 
 We are currently working on a larger database with around 100k questions and LLM answers. This will enable a more detailed assessment of LLM behavior.
 
-**Authors**
