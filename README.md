@@ -60,6 +60,6 @@ LLMGooAQ should not be used for any commercial purposes. See the [License](https
 
 **Note**
 
-We are currently working on a larger database with around 100k questions and LLM answers. This will enable a more meaningful assessment of LLM behavior.
+We are currently working on a larger database with around 100k questions and LLM answers. This will enable a more detailed assessment of LLM behavior.
 
 **Authors**
