@@ -1,6 +1,6 @@
 # LLMGooAQ: LLM Answers to GooAQ Questions 
 
-This is a comprehensive database encompassing diverse questions and answers across 20 domains and contexts. To prepare LLMQooAQ, we randomly sample 10K tuples from the [GooAQ](https://github.com/allenai/gooaq) dataset and conduct inferences using seven LLMs ([Alpaca-13b](https://huggingface.co/chavinlo/alpaca-13b), [Llama-2-13b](https://huggingface.co/meta-llama/Llama-2-13b), [Chatglm-6b](https://huggingface.co/THUDM/chatglm-6b), [Fastchat-t5-3b](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0), [Koala-13b](https://huggingface.co/TheBloke/koala-13B-HF), [Vicuna-7b](https://huggingface.co/lmsys/vicuna-7b-v1.5), [Vicuna-13b](https://huggingface.co/lmsys/vicuna-13b-v1.3)) to answer these questions.
+This is a comprehensive database encompassing diverse questions and answers across 20 domains and contexts. To prepare LLMQooAQ, we randomly sample 10K and 100k tuples from the [GooAQ](https://github.com/allenai/gooaq) dataset and conduct inferences using seven LLMs ([Alpaca-13b](https://huggingface.co/chavinlo/alpaca-13b), [Llama-2-13b](https://huggingface.co/meta-llama/Llama-2-13b), [Chatglm-6b](https://huggingface.co/THUDM/chatglm-6b), [Fastchat-t5-3b](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0), [Koala-13b](https://huggingface.co/TheBloke/koala-13B-HF), [Vicuna-7b](https://huggingface.co/lmsys/vicuna-7b-v1.5), [Vicuna-13b](https://huggingface.co/lmsys/vicuna-13b-v1.3)) to answer these questions.
 
 
 ## Typical Usage Scenarios
@@ -10,8 +10,13 @@ LLMGooAQ can be used to perform both human and automated evaluations by applying
 
 ## LLMGooAq Data
 
-To get the data, consult the [data]("https://github.com/mohaminemed/LLMGooAQ/tree/main/data") directory. 
+To get the small version of the data, consult the [data-10k]("https://github.com/mohaminemed/LLMGooAQ/tree/main/data-10k") directory.
 
+To get the large version, consult the [data-100k]("https://github.com/mohaminemed/LLMGooAQ/tree/main/data-100k") directory. The original dataset is splited into 10 subsets. To generate one file, you can use the following script:
+
+```batch
+python generate.py --path2folder data-100k
+```
 Each line of the data file should look like this: 
 
 ```json
