@@ -63,7 +63,7 @@ The figure below shows the distribution of questions across all contexts.
 
 LLMGooAQ should not be used for any commercial purposes. See the [License](https://github.com/mohaminemed/LLMGooAQ/blob/main/LICENSE) for the detailed terms.
 
-### Citation
+## Citation
 
 LLMGooAQ was produced as part of a research study entitled LLMChain: Blockchain-based Reputation System for
 Sharing and Evaluating Large Language Models. Please use the following citation to cite the dataset.
