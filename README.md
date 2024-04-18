@@ -1,6 +1,6 @@
 # LLMGooAQ: LLM Answers to GooAQ Questions 
 
-This is a comprehensive database encompassing diverse questions and answers across 20 domains and contexts. To prepare LLMQooAQ, we randomly sample 10K and 100k tuples from the [GooAQ](https://github.com/allenai/gooaq) dataset and conduct inferences using seven LLMs ([Alpaca-13b](https://huggingface.co/chavinlo/alpaca-13b), [Llama-2-13b](https://huggingface.co/meta-llama/Llama-2-13b), [Chatglm-6b](https://huggingface.co/THUDM/chatglm-6b), [Fastchat-t5-3b](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0), [Koala-13b](https://huggingface.co/TheBloke/koala-13B-HF), [Vicuna-7b](https://huggingface.co/lmsys/vicuna-7b-v1.5), [Vicuna-13b](https://huggingface.co/lmsys/vicuna-13b-v1.3)) to answer these questions.
+This is a comprehensive database encompassing diverse questions and answers across 20 domains/contexts. To prepare LLMQooAQ, we randomly sample 10K and 100k tuples from the [GooAQ](https://github.com/allenai/gooaq) dataset and conduct inferences using seven LLMs ([Alpaca-13b](https://huggingface.co/chavinlo/alpaca-13b), [Llama-2-13b](https://huggingface.co/meta-llama/Llama-2-13b), [Chatglm-6b](https://huggingface.co/THUDM/chatglm-6b), [Fastchat-t5-3b](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0), [Koala-13b](https://huggingface.co/TheBloke/koala-13B-HF), [Vicuna-7b](https://huggingface.co/lmsys/vicuna-7b-v1.5), [Vicuna-13b](https://huggingface.co/lmsys/vicuna-13b-v1.3)) to answer these questions.
 
 
 ## Typical Usage Scenarios
