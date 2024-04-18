@@ -55,7 +55,7 @@ print(dataset.head())
 
 ## Statistics
 
-The figure below shows the distribution of questions across all contexts.
+The figure below shows the distribution of questions in the 10k version of the dataset across all contexts.
 
 ![Image](https://github.com/mohaminemed/LLMGooAQ/blob/main/imgs/context_distribution.png)
 
