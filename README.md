@@ -12,10 +12,10 @@ LLMGooAQ can be used to perform both human and automated evaluations by applying
 
 To get the small version of the data, consult the [data-10k](https://github.com/mohaminemed/LLMGooAQ/tree/main/data-10k) directory.
 
-To get the large version, consult the [data-100k](https://github.com/mohaminemed/LLMGooAQ/tree/main/data-100k) directory. The original dataset is splited into 10 subsets. To generate one file, you can use the following script:
+To get the large version, consult the [data-100k](https://github.com/mohaminemed/LLMGooAQ/tree/main/data-100k) directory. The original dataset is splited into 10 subsets. To generate one file, you can use the following [script](https://github.com/mohaminemed/LLMGooAQ/tree/main/script):
 
 ```batch
-python generate.py --path2folder data-100k
+python script/generate.py --path2folder data-100k
 ```
 Each line of the data file should look like this: 
 
