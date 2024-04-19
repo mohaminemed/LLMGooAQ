@@ -66,7 +66,7 @@ LLMGooAQ should not be used for any commercial purposes. See the [License](https
 ## Citation
 
 LLMGooAQ was produced as part of a research study entitled LLMChain: Blockchain-based Reputation System for
-Sharing and Evaluating Large Language Models. Please use the following citation to cite the dataset.
+Sharing and Evaluating Large Language Models. Please use the provided citation to reference the dataset.
 
 ```
 
