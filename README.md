@@ -72,7 +72,7 @@ Sharing and Evaluating Large Language Models. Please use the provided citation t
 
 M. A. Bouchiha, Q. Telnoff, S. Bakkali, R. Champagnat, M. Rabah, M. Coustaty, and Y. Ghamri-Doudane,
 “LLMChain: Blockchain-based Reputation System for Sharing and Evaluating Large Language Models,”
-in 2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC) IEEE, Osaka, Japan 2024.
+in 2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC) IEEE, Osaka, Japan (2024).
 
 ```
 
